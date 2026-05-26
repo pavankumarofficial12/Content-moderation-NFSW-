@@ -1,0 +1,51 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+*.env
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+pip-wheel-metadata/
+
+# =========================
+# Logs & Temporary Files
+# =========================
+*.log
+logs/
+temp_*
+frames/
+*.jpg
+*.png
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# =========================
+# IDE & Editor Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Model Cache & Large Files
+# =========================
+*.pt
+*.bin
+*.onnx
+__pycache__/
+nltk_data/
+detoxify/
