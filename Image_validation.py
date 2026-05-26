@@ -1,5 +1,4 @@
-
-Image Validation code: 
+ 
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from nudenet import NudeDetector
